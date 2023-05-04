@@ -1,0 +1,29 @@
+body {
+  padding: 1em;
+  font: normal 20px Helvetica, Arial, sans-serif;
+  color: #3f3f3f;
+  background: #ffffff;
+}
+
+main {
+  margin: 10px 40px;
+}
+
+ul {
+  list-style: revert;
+  padding: 10px;
+}
+
+.message {
+  padding: 10px;
+  background-color: lemonchiffon;
+}
+
+form.inline {
+  display: inline;
+}
+
+.user-status {
+  font-style: italic;
+  font-size: 0.9em;
+}

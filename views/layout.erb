@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <title>File-based CMS</title>
+    <link rel="stylesheet" href="/stylesheets/application.css">
+    <script src="/javascripts/jquery-3.6.4.js"></script>
+    <script src="/javascripts/application.js"></script>
+  </head>
+  <body>
+    <header>
+      <% if session[:message] %>
+        <p class="message"><%= session.delete(:message) %></p>
+      <% end %>
+    </header>
+    <main>
+      <%== yield %>
+    </main>
+  </body>
+</html>
